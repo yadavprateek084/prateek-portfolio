@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prateek Yadav — Data Analyst</title>
+  <meta name="description" content="Prateek Yadav - Data Analyst skilled in Python, SQL, PostgreSQL, Power BI. Open to Data Analyst opportunities.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVIGATION
+     ══════════════════════════════════════════ -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">py<span>.</span>dev</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#resume" class="btn-outline">Resume ↓</a>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">☀</button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about"          onclick="closeMobileMenu()">About</a>
+  <a href="#skills"         onclick="closeMobileMenu()">Skills</a>
+  <a href="#projects"       onclick="closeMobileMenu()">Projects</a>
+  <a href="#certifications" onclick="closeMobileMenu()">Certifications</a>
+  <a href="#education"      onclick="closeMobileMenu()">Education</a>
+  <a href="#contact"        onclick="closeMobileMenu()">Contact</a>
+</div>
+
+<!-- ══════════════════════════════════════════
+     HERO
+     ══════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Open to Data Analyst Opportunities
+    </div>
+
+    <h1 class="hero-name">
+      Prateek <span class="grad">Yadav</span>
+    </h1>
+
+    <p class="hero-title">
+      <span class="chip">SQL</span> &nbsp;Data Analyst&nbsp; <span class="chip">Python</span> &nbsp;·&nbsp; Power BI Specialist
+    </p>
+
+    <p class="hero-intro">
+      <span class="typewriter" id="typedText"></span>
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="#resume"   class="btn-secondary">Download Resume</a>
+      <a href="#contact"  class="btn-secondary">Contact Me</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-card">
+        <div class="stat-num">120K+</div>
+        <div class="stat-label">Records Analyzed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Analytics Projects</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">SQL</div>
+        <div class="stat-label">+ Power BI Specialist</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">2026</div>
+        <div class="stat-label">B.Tech CSE Graduate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     ABOUT
+     ══════════════════════════════════════════ -->
+<section id="about">
+  <div class="section-inner">
+    <div class="section-tag">// who I am</div>
+    <h2 class="section-title reveal">About Me</h2>
+
+    <div class="about-grid">
+
+      <!-- Avatar -->
+      <div class="about-avatar reveal">
+        <div class="avatar-frame">
+          <div class="avatar-inner">
+            <div class="avatar-initials">PY</div>
+            <div class="avatar-tag">// data analyst</div>
+          </div>
+        </div>
+        <div class="avatar-badge-wrap">
+          <div class="avatar-badge">✦ Available for Hire</div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text reveal">
+        <p>I'm <strong>Prateek Yadav</strong>, a B.Tech Computer Science graduate with a deep passion for transforming raw, messy data into clear, actionable business intelligence.</p>
+        <p>My expertise spans the full analytics stack — from writing complex SQL queries and building ETL pipelines, to crafting interactive Power BI dashboards that executives actually use to make decisions.</p>
+        <p>I'm particularly excited about customer behaviour analysis, revenue intelligence, and data storytelling. I believe the best analysis is the one that sparks action — and I build dashboards with that philosophy at the core.</p>
+        <p style="color:var(--text);font-weight:500">Currently seeking Data Analyst / Business Analyst roles where I can drive measurable impact through data.</p>
+        <div class="about-pills">
+          <span class="pill accent">Python</span>
+          <span class="pill accent">SQL / PostgreSQL</span>
+          <span class="pill accent">Power BI</span>
+          <span class="pill">Pandas &amp; NumPy</span>
+          <span class="pill">EDA</span>
+          <span class="pill">Data Storytelling</span>
+          <span class="pill">KPI Dashboards</span>
+          <span class="pill">Git / GitHub</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     SKILLS
+     ══════════════════════════════════════════ -->
+<section id="skills">
+  <div class="section-inner">
+    <div class="section-tag">// technical stack</div>
+    <h2 class="section-title reveal">Skills &amp; Tools</h2>
+    <p class="section-sub reveal">A full-stack data analytics toolkit — from raw data ingestion to stakeholder-ready dashboards.</p>
+
+    <div class="skills-grid">
+
+      <!-- Programming -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Programming</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-items">
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Python</span><span class="skill-pct">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".90"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Pandas</span><span class="skill-pct">88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".88"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">NumPy</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".80"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Matplotlib</span><span class="skill-pct">78%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".78"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Database -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Database</div>
+        <div class="skill-name">SQL &amp; PostgreSQL</div>
+        <div class="skill-items">
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">SQL</span><span class="skill-pct">92%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".92"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">PostgreSQL</span><span class="skill-pct">88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".88"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Window Functions</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".85"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">CTEs &amp; JOINs</span><span class="skill-pct">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".90"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visualization -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Visualization</div>
+        <div class="skill-name">Power BI &amp; Excel</div>
+        <div class="skill-items">
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Power BI</span><span class="skill-pct">87%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".87"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">DAX</span><span class="skill-pct">78%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".78"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Excel (Advanced)</span><span class="skill-pct">82%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".82"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">KPI Dashboards</span><span class="skill-pct">88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".88"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analytics Core -->
+      <div class="skill-card reveal">
+        <div class="skill-cat">Analytics</div>
+        <div class="skill-name">Data Science Core</div>
+        <div class="skill-items">
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">EDA</span><span class="skill-pct">90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".90"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Data Cleaning</span><span class="skill-pct">92%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".92"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Statistics</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".80"></div></div>
+          </div>
+          <div>
+            <div class="skill-item-row"><span class="skill-item-name">Data Modeling</span><span class="skill-pct">78%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-w=".78"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     PROJECTS
+     ══════════════════════════════════════════ -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-tag">// portfolio</div>
+    <h2 class="section-title reveal">Featured Projects</h2>
+    <p class="section-sub reveal">Real-world analytics projects demonstrating end-to-end data skills from ingestion to insight.</p>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card reveal">
+        <div class="project-visual pv-1">
+          <div class="pv-chart">
+            <div class="bar-visual" style="height:60%;width:18px"></div>
+            <div class="bar-visual" style="height:80%;width:18px"></div>
+            <div class="bar-visual" style="height:55%;width:18px"></div>
+            <div class="bar-visual" style="height:95%;width:18px"></div>
+            <div class="bar-visual" style="height:70%;width:18px"></div>
+            <div class="bar-visual" style="height:85%;width:18px"></div>
+            <div class="bar-visual" style="height:60%;width:18px"></div>
+          </div>
+          <div class="project-kpis">
+            <span class="kpi-chip">Revenue ↑</span>
+            <span class="kpi-chip">AOV tracked</span>
+            <span class="kpi-chip">120K rows</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">// 01</div>
+          <div class="project-title">Sales Analytics &amp;<br>Revenue Intelligence</div>
+          <div class="project-desc">
+            <ul style="padding-left:1rem">
+              <li>Processed 120K+ sales transaction records end-to-end</li>
+              <li>Advanced SQL: JOINs, CTEs, Window Functions, subqueries</li>
+              <li>Power BI dashboard: Revenue, Profit Margin, AOV, Growth Trends</li>
+              <li>Python + PostgreSQL data pipeline for automated ingestion</li>
+            </ul>
+          </div>
+          <div class="tech-badges">
+            <span class="badge py">Python</span>
+            <span class="badge sql">SQL</span>
+            <span class="badge pg">PostgreSQL</span>
+            <span class="badge pbi">Power BI</span>
+            <span class="badge pd">Pandas</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-btn proj-btn-gh">⌥ GitHub</a>
+            <a href="#" class="proj-btn proj-btn-live">↗ Live Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card reveal">
+        <div class="project-visual pv-2">
+          <div class="pv-chart">
+            <div class="bar-visual" style="height:45%;width:18px;background:linear-gradient(180deg,var(--accent3),rgba(34,211,160,.3))"></div>
+            <div class="bar-visual" style="height:70%;width:18px;background:linear-gradient(180deg,var(--accent3),rgba(34,211,160,.3))"></div>
+            <div class="bar-visual" style="height:90%;width:18px;background:linear-gradient(180deg,var(--accent3),rgba(34,211,160,.3))"></div>
+            <div class="bar-visual" style="height:65%;width:18px;background:linear-gradient(180deg,var(--accent3),rgba(34,211,160,.3))"></div>
+            <div class="bar-visual" style="height:80%;width:18px;background:linear-gradient(180deg,var(--accent3),rgba(34,211,160,.3))"></div>
+            <div class="bar-visual" style="height:55%;width:18px;background:linear-gradient(180deg,var(--accent3),rgba(34,211,160,.3))"></div>
+          </div>
+          <div class="project-kpis">
+            <span class="kpi-chip" style="color:var(--accent3)">Segments</span>
+            <span class="kpi-chip" style="color:var(--accent3)">CLV analysis</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">// 02</div>
+          <div class="project-title">Customer Behaviour<br>Analysis</div>
+          <div class="project-desc">
+            <ul style="padding-left:1rem">
+              <li>Customer segmentation using RFM analysis methodology</li>
+              <li>Purchasing trend analysis across product categories</li>
+              <li>Data cleaning &amp; transformation with Pandas and SQL</li>
+              <li>Interactive Power BI dashboard with drill-through filters</li>
+            </ul>
+          </div>
+          <div class="tech-badges">
+            <span class="badge py">Python</span>
+            <span class="badge sql">SQL</span>
+            <span class="badge pd">Pandas</span>
+            <span class="badge pbi">Power BI</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-btn proj-btn-gh">⌥ GitHub</a>
+            <a href="#" class="proj-btn proj-btn-live">↗ Live Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card reveal">
+        <div class="project-visual pv-3">
+          <div class="pv-chart">
+            <div class="bar-visual" style="height:75%;width:18px;background:linear-gradient(180deg,var(--accent2),rgba(124,106,247,.3))"></div>
+            <div class="bar-visual" style="height:50%;width:18px;background:linear-gradient(180deg,var(--accent2),rgba(124,106,247,.3))"></div>
+            <div class="bar-visual" style="height:88%;width:18px;background:linear-gradient(180deg,var(--accent2),rgba(124,106,247,.3))"></div>
+            <div class="bar-visual" style="height:62%;width:18px;background:linear-gradient(180deg,var(--accent2),rgba(124,106,247,.3))"></div>
+            <div class="bar-visual" style="height:92%;width:18px;background:linear-gradient(180deg,var(--accent2),rgba(124,106,247,.3))"></div>
+            <div class="bar-visual" style="height:70%;width:18px;background:linear-gradient(180deg,var(--accent2),rgba(124,106,247,.3))"></div>
+            <div class="bar-visual" style="height:58%;width:18px;background:linear-gradient(180deg,var(--accent2),rgba(124,106,247,.3))"></div>
+          </div>
+          <div class="project-kpis">
+            <span class="kpi-chip" style="color:var(--accent2)">Advanced SQL</span>
+            <span class="kpi-chip" style="color:var(--accent2)">KPI reports</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">// 03</div>
+          <div class="project-title">Retail Sales<br>SQL Analysis</div>
+          <div class="project-desc">
+            <ul style="padding-left:1rem">
+              <li>Advanced PostgreSQL analytics on retail sales data</li>
+              <li>Complex multi-table queries with performance optimization</li>
+              <li>Sales trends, seasonality, and category performance analysis</li>
+              <li>KPI-driven executive reports and automated insight generation</li>
+            </ul>
+          </div>
+          <div class="tech-badges">
+            <span class="badge sql">SQL</span>
+            <span class="badge pg">PostgreSQL</span>
+            <span class="badge pbi">Power BI</span>
+            <span class="badge py">Python</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-btn proj-btn-gh">⌥ GitHub</a>
+            <a href="#" class="proj-btn proj-btn-live">↗ Live Report</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     CERTIFICATIONS
+     ══════════════════════════════════════════ -->
+<section id="certifications">
+  <div class="section-inner">
+    <div class="section-tag">// credentials</div>
+    <h2 class="section-title reveal">Certifications</h2>
+    <div class="certs-grid">
+
+      <div class="cert-card reveal">
+        <div class="cert-icon cert-icon-pbi">📊</div>
+        <div class="cert-info">
+          <div class="cert-title">Microsoft Power BI Data Analyst</div>
+          <div class="cert-issuer">Microsoft</div>
+          <div class="cert-year">// PL-300 Certified</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon cert-icon-db">🧠</div>
+        <div class="cert-info">
+          <div class="cert-title">Databricks AI Fundamentals</div>
+          <div class="cert-issuer">Databricks</div>
+          <div class="cert-year">// AI &amp; Data Lakehouse</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     EDUCATION
+     ══════════════════════════════════════════ -->
+<section id="education">
+  <div class="section-inner">
+    <div class="section-tag">// academics</div>
+    <h2 class="section-title reveal">Education</h2>
+    <div class="edu-timeline">
+
+      <div class="edu-item reveal">
+        <div class="edu-period">2022 — 2026</div>
+        <div class="edu-degree">Bachelor of Technology — Computer Science &amp; Engineering</div>
+        <div class="edu-inst">Veer Bahadur Singh Purvanchal University, Jaunpur, UP</div>
+        <span class="edu-detail">Focus: Data Analytics, Databases, Algorithms</span>
+      </div>
+
+      <div class="edu-item reveal">
+        <div class="edu-period">2020 — 2022</div>
+        <div class="edu-degree">Intermediate — Class XII (PCM)</div>
+        <div class="edu-inst">Uttar Pradesh Board</div>
+        <span class="edu-detail">Score: 85%</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     RESUME
+     ══════════════════════════════════════════ -->
+<section id="resume">
+  <div class="section-inner">
+    <div class="section-tag">// download</div>
+    <h2 class="section-title reveal">Resume</h2>
+    <div class="resume-section reveal">
+      <h3>ATS-Optimized Resume</h3>
+      <p>Clean, recruiter-friendly format aligned with industry standards. Keyword-optimized for Applicant Tracking Systems used by top companies.</p>
+      <div class="resume-chips">
+        <span class="r-chip green">✓ ATS Optimized</span>
+        <span class="r-chip green">✓ Recruiter Friendly</span>
+        <span class="r-chip">Data Analyst Focus</span>
+        <span class="r-chip">Updated 2024</span>
+      </div>
+      <a href="#" class="btn-primary">Download Resume (PDF) ↓</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════
+     CONTACT
+     ══════════════════════════════════════════ -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="section-tag">// let's connect</div>
+    <h2 class="section-title reveal">Get In Touch</h2>
+
+    <div class="contact-grid">
+
+      <div class="contact-info reveal">
+        <h3>Open to<br><span style="color:var(--accent)">Data Analyst Roles</span></h3>
+        <p>Whether you're a recruiter from Deloitte, Accenture, ZS Associates, TCS Digital, or an exciting startup — I'd love to hear about opportunities where I can make an impact with data.</p>
+        <div class="contact-links">
+          <a href="mailto:prateekyadav@email.com" class="c-link">
+            <div class="c-link-icon mail">✉</div>
+            <div class="c-link-text">
+              <div class="c-label">EMAIL</div>
+              <div class="c-val">prateekyadav@email.com</div>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/prateekyadav" target="_blank" class="c-link">
+            <div class="c-link-icon linkedin">in</div>
+            <div class="c-link-text">
+              <div class="c-label">LINKEDIN</div>
+              <div class="c-val">linkedin.com/in/prateekyadav</div>
+            </div>
+          </a>
+          <a href="https://github.com/prateekyadav" target="_blank" class="c-link">
+            <div class="c-link-icon github">⌥</div>
+            <div class="c-link-text">
+              <div class="c-label">GITHUB</div>
+              <div class="c-val">github.com/prateekyadav</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form reveal">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">NAME</label>
+            <input class="form-input" type="text" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">COMPANY</label>
+            <input class="form-input" type="text" placeholder="Your company">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">EMAIL</label>
+          <input class="form-input" type="email" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">MESSAGE</label>
+          <textarea class="form-textarea" placeholder="Tell me about the opportunity..."></textarea>
+        </div>
+        <button class="btn-primary" style="width:100%">Send Message →</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════ -->
+<footer>
+  <p>Built by <span>Prateek Yadav</span> · Data Analyst · 2024 · Open to opportunities</p>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
